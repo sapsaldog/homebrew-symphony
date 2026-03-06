@@ -8,6 +8,9 @@ class SymphonyClaude < Formula
   depends_on "node"
 
   def install
+    system "npm", "install"
+    system "npx", "tsc"
+    system "chmod", "+x", "dist/index.js"
     system "npm", "install", *std_npm_args
     bin.install_symlink libexec.glob("bin/*")
   end
