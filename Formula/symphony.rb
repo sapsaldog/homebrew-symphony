@@ -1,8 +1,8 @@
 class Symphony < Formula
   desc "Multi-backend AI coding agent orchestrator (Linear/GitHub + Codex/Claude)"
   homepage "https://github.com/sapsaldog/symphony"
-  url "https://github.com/sapsaldog/symphony/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "4ab28a9624e8e567400b7d9fe1a360c7c7d1c206f5bd20c41bfabbd14a945ca0"
+  url "https://github.com/sapsaldog/symphony/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "4eb41714e8e62411b90bac89bc90845e1062c9aa9dd12b35a0b5a663114bb458"
   license "Apache-2.0"
 
   depends_on "erlang"
